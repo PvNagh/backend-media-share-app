@@ -8,7 +8,7 @@ dotenv.config();
 export const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ extended: true }));
-const URL = process.env.ATLAS_URL;
+const URL = "mongodb+srv://ayush-admin:bXG6osULSvpDQyVP@cluster0.64kksbi.mongodb.net/?retryWrites=true&w=majority";
 mongoose.set("strictQuery", false);
 try {
     await mongoose.connect(URL,

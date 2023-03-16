@@ -17,9 +17,6 @@ RUN npm run test
 # Expose port 3000
 EXPOSE 3000
 
-# Set environment variables
-ENV ATLAS_URL="mongodb+srv://ayush-admin:bXG6osULSvpDQyVP@cluster0.64kksbi.mongodb.net/?retryWrites=true&w=majority"
-
 # Start the app
 CMD ["npm", "start"]
 
