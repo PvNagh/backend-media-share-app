@@ -1,4 +1,4 @@
-# reunion-task
+# Backend for social media app
 ### Use command npm run test to run the testcases 
 
 ### To create docker image-
